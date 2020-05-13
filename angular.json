@@ -121,8 +121,13 @@
               "devServerTarget": "virtual-viewing:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "virtual-viewing"
 }
